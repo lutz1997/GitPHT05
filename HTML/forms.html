@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    
+    <form action="submit_page.php" method="post">
+<!-- Usage of form elemets: input, text, area, select, button
+ -->
+    <label for="Firstname">First Name: </label>
+    <input type="text" id="firstname" name="firstname" required>
+    <br />
+    <br />
+    <label for="age">Age: </label>
+    <input type="number" id="age" name="age" required>
+    <br />
+    <br />
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" required>
+    <br />
+    <br />
+    <label for="message">Message: </label>
+    <textarea name="message" id="message" rows="5" cols="10"></textarea>
+    <br />
+    <br />
+    <label for="gender">Gender: </label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <br />
+    <br />
+    <input type="radio" id="option1" name="Options" value="Option1">
+    <label for="option1">Option1</label>
+    <input type="radio" id="option2" name="Options" value="Option2">
+    <label for="option2">Option2</label>
+
+    <input type="radio" id="option1" name="Options" value="Option1">
+    <label for="option1">Option1</label>
+    <input type="radio" id="option2" name="Options" value="Option2">
+    <label for="option2">Option2</label>
+    <br />
+    <br />
+    <label for="choices">checkbox</label>
+    <input type="checkbox" id="optionA" name="choices" value="optionA">
+    <label for="choices">checkbox</label>
+    <input type="checkbox" id="optionB" name="choices" value="optionB">
+
+
+
+    <br />
+    <br />
+    <button type="submit" name="submit" >Submit</button>
+
+
+    </form>
+
+</body>
+</html>
